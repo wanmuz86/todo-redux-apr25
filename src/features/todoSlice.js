@@ -1,3 +1,5 @@
+import { createSlice } from "@reduxjs/toolkit";
+
 // Redux configuration file where the state, action and reducers will be defined
 
 const todoSlice = createSlice({

@@ -9,6 +9,7 @@ const Add = () => {
     const handleAddItem = () => {
       // dispatching addTodo Method, by passing the payload as argument of the method
       dispatch(addTodo({id:Date.now(), name:newTodo}))
+      setNewTodo('')
     }
   return (
     <div>
