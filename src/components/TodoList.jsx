@@ -10,7 +10,6 @@ const todos = useSelector((state)=> state.todos.todos)
   return (
     <div>
         <h2>List To do</h2>
-
         {
           todos.map(val=><TodoItem todo={val} key={val.id}/>)
         }
